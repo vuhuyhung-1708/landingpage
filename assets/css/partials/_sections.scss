@@ -1,0 +1,25 @@
+#section1, #section2, #section3, #section4, #section5, #section6 {
+    padding: 50px 20px;
+  }
+  
+  #section1 {
+    padding: 225px 0;
+  }
+  
+  #section2, #section3, #section4 {
+    text-align: center;
+  }
+  
+  .image_my_speciality {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+  }
+  
+  .image_my_speciality img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,26 @@
+header {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background: linear-gradient(to right, black 50%, transparent 50%),
+                url('/assets/img/background-1.png') left center/cover no-repeat;
+  }
+  
+  .content-home {
+    max-width: 500px;
+    color: white;
+    padding: 20px;
+  }
+  
+  .content-home h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .content-home p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  

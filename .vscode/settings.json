@@ -1,0 +1,46 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+    },
+    "editor.foldingMaximumRegions": 65000,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "scss.scannerExclude": [
+        "**/.git",
+        "**/node_modules",
+        "**/modules",
+        "**/bower_components",
+        "**/Image"
+    ],
+    "[javascript]": {
+        "editor.defaultFormatter": "ms-vsliveshare.vsliveshare"
+    },
+    "svg.preview.autoShow": true,
+    "git.autofetch": true,
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.useNewCompiler": true,
+    "liveSassCompile.settings.watchOnLaunch": true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "compressed",
+            "extensionName": ".min.css",
+            "savePath": null,
+            "savePathReplacementPairs": null
+        }
+    ],
+    "liveSassCompile.settings.partialsList": [
+        "/assets/css/partials/*.scss"
+    ],
+    "liveSassCompile.settings.includeItems": [ 
+        "/assets/css/styles.scss"
+    ],
+    "editor.linkedEditing": true
+}
