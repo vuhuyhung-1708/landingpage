@@ -13,7 +13,7 @@
   .image_my_speciality {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 15px;
+    gap: 40px;
   }
   
   .image_my_speciality img {
@@ -23,3 +23,13 @@
     border-radius: 10px;
   }
   
+#section5 .text-box h2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+#section5 .text-box p {
+  font-size: 8px;
+  color: #444;
+  line-height: 1.5;
+}
